@@ -122,21 +122,63 @@ public class Nested_loop {
 // }
 
 
-  int i=1,j;  
-    while (i<=10) {  
-        j=1;
-        while (j<=10) {
+//   int i=1,j;  
+//     while (i<=10) {  
+//         j=1;
+//         while (j<=10) {
 
-            if(i==1 || i==10 || j==1 || j==10 || i==j || i+j==11)
-            System.out.print("* ");
-        else
+//             if(i==1 || i==10 || j==1 || j==10 || i==j || i+j==11)
+//             System.out.print("* ");
+//         else
+//             System.out.print("  ");
+//             j++;
+//         }
+//         i++;
+//         System.out.println();
+   
+
+// }
+
+// int i=1,j,n=7;
+// while (i<=n) 
+//     {
+//         j=i;
+//         while (j<n) {
+//             System.out.print("  ");
+//             j++;
+            
+//         }
+//         j=1;
+//         while (j<=(i*2)-1) 
+//             {
+//                 System.out.print("* ");
+//                 j++;
+            
+//         }
+//         i++;
+//         System.out.println();
+    
+// }
+
+int i=1,j,n=7;
+while (i<=n) 
+    {
+        j=1;
+        while (j<i) {
             System.out.print("  ");
             j++;
+            
+        }
+        j=i;
+        while (j<=(n*2)-is) 
+            {
+                System.out.print("* ");
+                j++;
+            
         }
         i++;
         System.out.println();
-   
-
+    
 }
 }
 }

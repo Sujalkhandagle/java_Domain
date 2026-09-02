@@ -13,6 +13,8 @@ int no=30;
 
 System.out.println(+no%2==0? "even":"odd");
 
+
+
 int year=2026;
 
 System.out.println(year%4==0?"leeap year":"not leeap year");

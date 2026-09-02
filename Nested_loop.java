@@ -170,7 +170,7 @@ while (i<=n)
             
         }
         j=i;
-        while (j<=(n*2)-is) 
+        while (j<=(n*2)) 
             {
                 System.out.print("* ");
                 j++;

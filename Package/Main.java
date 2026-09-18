@@ -7,6 +7,8 @@ import pack1.pack2.Substration;
 public class Main {
     public static void main(String[] args) {
         Addition a=new Addition();
+
+        
         a.add(5, 8);
         Substration b=new Substration();
         b.sub(20, 5);

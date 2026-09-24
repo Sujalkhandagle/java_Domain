@@ -22,7 +22,7 @@ class Customer extends Thread{
     }
     public void run(){
 
-        account.with(10000);
+        account.with(10000);  
     }
 }
 public class Mainapp2 {

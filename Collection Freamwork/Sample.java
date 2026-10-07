@@ -34,7 +34,9 @@ public class Sample {
         list.addAll(list1);
         System.out.println(list);
         list.addAll(1,list1);
-        System.out.println(list);
+        System.out.println(list
+            
+        );
 
 
 

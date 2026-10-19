@@ -14,5 +14,10 @@ public class Sample {
         String str="sujal";  
         Function<String,String> fullname=st->st.concat(" khandagale");
         System.out.println(fullname.apply(str)); 
+
+        Function<Integer,Integer> dob=n->n*2;
+        Function<Integer,Integer> add10=n->n+10;
+        Function<Integer,Integer> res=dob.andThen(add10);
+        System.out.println(res.apply(40));
         }
 }

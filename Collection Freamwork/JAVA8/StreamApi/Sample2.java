@@ -36,6 +36,11 @@ public class Sample2 {
        int fact=list5.stream().reduce(1,(a,b)->a*b);
        System.out.println(fact);
 
+       List<Integer> list6 = Arrays.asList(1,2,3,4,5);
+       Long summ=list6.stream().filter(n->n%2==0).count();
+       System.out.println(summ);
+
+
 
        
 
